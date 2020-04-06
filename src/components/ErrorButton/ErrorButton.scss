@@ -1,0 +1,13 @@
+.button-row {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+	button {
+		margin: 0 0 0 15px;
+
+		&:first-child {
+			margin: 0;
+		}
+	}
+}

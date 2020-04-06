@@ -1,0 +1,46 @@
+.header {
+	margin-top: 1rem;
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+
+	ul {
+		margin: 0;
+
+		li {
+			list-style: none;
+			margin: 0;
+			padding: .5rem 1rem;
+			border-radius: 3px;
+		}
+	}
+
+	button.btn {
+		margin-left: 15px;
+		padding: .5rem 1rem;
+	}
+
+}
+
+.header ul li:hover {
+	background-color: #444;
+}
+
+.header a:hover {
+	text-decoration: none;
+}
+
+.header h3 a {
+	color: white;
+}
+
+.header h3 a:hover {
+	color: #00bc8c;
+}
+
+.justify-elements {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
